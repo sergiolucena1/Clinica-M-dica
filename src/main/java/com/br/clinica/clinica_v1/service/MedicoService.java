@@ -10,7 +10,7 @@ public class MedicoService {
     @Autowired
     MedicoRepository repository;
 
-    public Medico create(Medico professor) {
-        return repository.save(professor);
+    public Medico create(Medico medico) {
+        return repository.save(medico);
     }
 }
